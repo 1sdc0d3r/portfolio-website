@@ -1,0 +1,169 @@
+.container.about-page {
+  width: 800px;
+  margin: auto;
+}
+
+.container.about-page header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container.about-page header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container.about-page header nav img {
+  height: 40px;
+  width: 157px;
+  margin: 0px;
+}
+
+.container.about-page header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.container.about-page header nav ul li {
+  list-style-type: none;
+}
+
+.container.about-page header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container.about-page header nav ul li a:hover {
+  color: #c08243;
+}
+
+.container.about-page header img {
+  margin-top: 1.838%;
+  width: 100%;
+}
+
+.container.about-page .test {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container.about-page .test .top-sect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1.2px dotted black;
+  margin: 0 auto 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container.about-page .test h2 {
+  margin-bottom: 0;
+  width: 93%;
+}
+
+.container.about-page .test p {
+  width: 93%;
+  margin-bottom: 20px;
+}
+
+.container.about-page .middle-sect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container.about-page .middle-sect .four-div {
+  width: 45%;
+  margin: 12px 7px;
+  border-bottom: 1px dotted black;
+}
+
+.container.about-page .middle-sect .four-div img {
+  width: 100%;
+}
+
+.container.about-page .middle-sect .four-div h2 {
+  margin: 5px auto;
+}
+
+.container.about-page .middle-sect .four-div p {
+  margin: 4px auto 15px;
+}
+
+.container.about-page .middle-sect .four-div button {
+  padding: 7px 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 1.07rem;
+}
+
+.container.about-page .middle-sect .four-div button:hover {
+  background-color: peachpuff;
+  color: maroon;
+}
+
+.container.about-page .middle-sect .places-work,
+.container.about-page .middle-sect .collab {
+  margin-top: 35px;
+}
+
+.container.about-page .btm-sect {
+  width: 96%;
+  margin: 25px auto;
+}
+
+.container.about-page footer nav {
+  background-color: black;
+  padding: 17px;
+  margin-bottom: 0px;
+}
+
+.container.about-page footer nav a {
+  margin: auto 20px;
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=about.css.map */
